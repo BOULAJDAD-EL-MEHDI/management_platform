@@ -1,0 +1,26 @@
+{
+  "name": "management_platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "@tailwindcss/cli -i ./src/main/resources/static/css/style.css -o ./src/main/resources/static/css/output.css",
+    "css:watch": "@tailwindcss/cli -i ./src/main/resources/static/css/style.css -o ./src/main/resources/static/css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOULAJDAD-EL-MEHDI/management_platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BOULAJDAD-EL-MEHDI/management_platform/issues"
+  },
+  "homepage": "https://github.com/BOULAJDAD-EL-MEHDI/management_platform#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
